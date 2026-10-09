@@ -8,12 +8,16 @@
 
 ---
 
+## 从 Edge 商店直接安装
+
+[Edge 插件链接（可以直接安装）](https://microsoftedge.microsoft.com/addons/detail/%E9%80%90%E5%AD%97%E8%BE%93%E5%85%A5/pdfhldjpbbigiccdgopnecenejjpjgpa)
+
 ## 项目简介
 
 “逐字输入”是一款 Microsoft Edge 侧边栏扩展。用户在侧边栏中输入或粘贴文字，选择网页输入框后，扩展逐字符发送输入事件。它不调用目标网页的粘贴操作，适用于粘贴受限、但网站规则仍允许键盘输入的场景。
 
 > 请先确认目标网站允许使用此类输入方式。扩展不会替用户提交表单；提交前请检查网页中的实际内容。
-Edge插件链接(可以直接安装):https://microsoftedge.microsoft.com/addons/detail/%E9%80%90%E5%AD%97%E8%BE%93%E5%85%A5/pdfhldjpbbigiccdgopnecenejjpjgpa
+
 ## 功能
 
 | 功能 | 说明 |
@@ -73,3 +77,4 @@ Edge插件链接(可以直接安装):https://microsoftedge.microsoft.com/addons/
 ## 限制
 
 浏览器内部页面（例如 `edge://` 页面）、Edge Add-ons 商店页面及部分受限页面不允许扩展注入。网页若禁止键盘输入、使用特殊编辑器校验或主动拒绝输入，扩展也可能无法工作。发送完成提示只表示输入命令已发出，请检查网页实际内容。
+
