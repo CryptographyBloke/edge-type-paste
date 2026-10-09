@@ -1,0 +1,15 @@
+:root { font-family: system-ui, sans-serif; color-scheme: light dark; }
+body { margin: 0; min-width: 260px; }
+main { padding: 12px; }
+h1 { font-size: 18px; margin: 0 0 8px; }
+.hint { font-size: 13px; line-height: 1.5; margin: 0 0 8px; }
+label { display: block; font-size: 13px; font-weight: 600; margin: 8px 0 4px; }
+textarea, input, button { box-sizing: border-box; font: inherit; }
+textarea { width: 100%; resize: vertical; min-height: 105px; padding: 8px; }
+#delay { display: block; width: 100%; margin-top: 4px; padding: 5px; }
+button { width: 100%; margin-top: 10px; padding: 9px; font-weight: 700; cursor: pointer; }
+#arm { background: #1d5ce2; color: white; border: 1px solid #1d5ce2; border-radius: 6px; }
+#clear { font-size: 12px; font-weight: 400; margin-top: 6px; padding: 5px; background: transparent; border: 0; color: #555; }
+button:disabled { cursor: wait; opacity: .65; }
+.status { font-size: 12px; line-height: 1.4; min-height: 1.5em; margin: 4px 0; }
+.error { color: #b00020; }
