@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">逐字输入</h1>
-<p align="center">把侧边栏中的文字，逐字符输入到你选定的网页编辑框。</p>
+<p align="center">将你剪贴板的内容逐字输出以模仿正常键盘输入</p>
 <p align="center"><strong>Microsoft Edge · Manifest V3 · v0.3.7</strong></p>
 
 ---
