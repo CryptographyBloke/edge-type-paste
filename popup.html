@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>逐字输入侧边栏</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <h1>逐字输入</h1>
+    <p class="hint">先在这里粘贴文字，再点「等待选择」，最后点击网页输入框。</p>
+    <p id="target-status" class="status" role="status">等待选择网页输入框。</p>
+    <label for="text">要输入的文字</label>
+    <textarea id="text" rows="7" placeholder="在侧边栏按 Ctrl+V 粘贴文字。" autofocus></textarea>
+    <label for="delay">每字符间隔（毫秒）<input id="delay" type="number" min="0" max="500" value="0"></label>
+    <button id="arm" type="button">等待选择网页输入框</button>
+    <button id="type" type="button">输入到已选输入框</button>
+    <button id="clear" type="button">清空侧边栏文字</button>
+    <p id="result" class="status" role="status" aria-live="polite"></p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
